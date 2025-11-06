@@ -1,0 +1,532 @@
+player_id,full_name,position,nationality,shirt_number,team,matches_played,goals_scored,avg_minutes,starts
+561,Erling Haaland,Forward,,,Manchester City,1,4,0.0,0
+681,Richarlison,Forward,,,Tottenham,1,4,0.0,0
+1023,Chris Wood,Forward,,,Nott'ham Forest,1,4,0.0,0
+646,Antoine Semenyo,Forward,,,Bournemouth,1,4,0.0,0
+593,Mohamed Salah,Forward,,,Liverpool,1,2,0.0,0
+608,Federico Chiesa,Forward,,,Liverpool,1,2,0.0,0
+685,Brennan Johnson,Forward,WLS,,Tottenham,1,2,0.0,0
+625,Wilson Isidor,Forward,,,Sunderland,1,2,0.0,0
+581,Rayan Cherki,Midfielder,,,Manchester City,1,2,0.0,0
+595,Cody Gakpo,Forward,,,Liverpool,1,2,0.0,0
+1021,Dan Ndoye,Forward,,,Nott'ham Forest,1,2,0.0,0
+628,Daniel Ballard,Defender,NIR,,Sunderland,1,2,0.0,0
+563,Tijjani Reijnders,Midfielder,,,Manchester City,1,2,0.0,0
+538,Riccardo Calafiori,Defender,,,Arsenal,1,2,0.0,0
+839,Thiago,Forward,,,Brentford,1,2,0.0,0
+794,Matt O'Riley,Midfielder,,,Brighton,1,2,0.0,0
+632,Eliezer Mayenda,Forward,,,Sunderland,1,2,0.0,0
+956,Lukas Nmecha,Forward,,,Leeds United,1,2,0.0,0
+599,Hugo Ekitike,Forward,,,Liverpool,1,2,0.0,0
+923,Rodrigo Muniz,Forward,,,Fulham,1,2,0.0,0
+556,Piero Hincapié,Defender,,,Arsenal,0,0,0.0,0
+557,Christian Nørgaard,Midfielder,,,Arsenal,0,0,0.0,0
+558,Andre Annous,Forward,ENG,,Arsenal,0,0,0.0,0
+559,Kepa Arrizabalaga,Goalkeeper,,,Arsenal,0,0,0.0,0
+560,Jakub Kiwior,Defender,,,Arsenal,0,0,0.0,0
+562,Rúben Dias,Defender,,,Manchester City,0,0,0.0,0
+564,Gianluigi Donnarumma,Goalkeeper,,,Manchester City,0,0,0.0,0
+565,Phil Foden,Midfielder,ENG,,Manchester City,0,0,0.0,0
+566,Matheus Nunes,Defender,,,Manchester City,0,0,0.0,0
+567,Nico O’Reilly,Defender,ENG,,Manchester City,0,0,0.0,0
+568,Bernardo Silva,Midfielder,,,Manchester City,0,0,0.0,0
+569,Jeremy Doku,Midfielder,,,Manchester City,0,0,0.0,0
+570,Joško Gvardiol,Defender,,,Manchester City,0,0,0.0,0
+571,Nicolás González,Midfielder,,,Manchester City,0,0,0.0,0
+572,Oscar Bobb,Midfielder,,,Manchester City,0,0,0.0,0
+573,Sávio,Midfielder,,,Manchester City,0,0,0.0,0
+574,John Stones,Defender,ENG,,Manchester City,0,0,0.0,0
+575,Rodri,Midfielder,,,Manchester City,0,0,0.0,0
+576,James Trafford,Goalkeeper,ENG,,Manchester City,0,0,0.0,0
+577,Abdukodir Khusanov,Defender,,,Manchester City,0,0,0.0,0
+578,Rayan Aït-Nouri,Defender,,,Manchester City,0,0,0.0,0
+579,Rico Lewis,Defender,ENG,,Manchester City,0,0,0.0,0
+580,Omar Marmoush,Forward,,,Manchester City,0,0,0.0,0
+582,Nathan Aké,Defender,,,Manchester City,0,0,0.0,0
+583,Mateo Kovačić,Midfielder,,,Manchester City,0,0,0.0,0
+584,Manuel Akanji,Defender,,,Manchester City,0,0,0.0,0
+585,Ederson,Goalkeeper,,,Manchester City,0,0,0.0,0
+586,İlkay Gündoğan,Midfielder,,,Manchester City,0,0,0.0,0
+587,Ryan Mcaidoo,Forward,ENG,,Manchester City,0,0,0.0,0
+588,Stephen Mfuni,Defender,ENG,,Manchester City,0,0,0.0,0
+589,Divine Mukasa,Midfielder,ENG,,Manchester City,0,0,0.0,0
+590,Stefan Ortega,Goalkeeper,,,Manchester City,0,0,0.0,0
+591,Dominik Szoboszlai,Midfielder,,,Liverpool,0,0,0.0,0
+592,Virgil van Dijk,Defender,,,Liverpool,0,0,0.0,0
+594,Ibrahima Konaté,Defender,,,Liverpool,0,0,0.0,0
+596,Milos Kerkez,Defender,,,Liverpool,0,0,0.0,0
+597,Ryan Gravenberch,Midfielder,,,Liverpool,0,0,0.0,0
+598,Alexis Mac Allister,Midfielder,,,Liverpool,0,0,0.0,0
+600,Florian Wirtz,Midfielder,,,Liverpool,0,0,0.0,0
+601,Alisson,Goalkeeper,,,Liverpool,0,0,0.0,0
+602,Conor Bradley,Defender,NIR,,Liverpool,0,0,0.0,0
+603,Giorgi Mamardashvili,Goalkeeper,,,Liverpool,0,0,0.0,0
+604,Alexander Isak,Forward,,,Liverpool,0,0,0.0,0
+605,Curtis Jones,Midfielder,ENG,,Liverpool,0,0,0.0,0
+606,Andrew Robertson,Defender,SCT,,Liverpool,0,0,0.0,0
+607,Jeremie Frimpong,Defender,,,Liverpool,0,0,0.0,0
+609,Wataru Endo,Midfielder,,,Liverpool,0,0,0.0,0
+610,Joe Gomez,Defender,ENG,,Liverpool,0,0,0.0,0
+611,Rio Ngumoha,Forward,ENG,,Liverpool,0,0,0.0,0
+612,Harvey Elliott,Midfielder,ENG,,Aston Villa,0,0,0.0,0
+613,Giovanni Leoni,Defender,,,Liverpool,0,0,0.0,0
+614,Kieran Morrison,Midfielder,NIR,,Liverpool,0,0,0.0,0
+615,Trey Nyoni,Midfielder,ENG,,Liverpool,0,0,0.0,0
+616,Ármin Pécsi,Goalkeeper,,,Liverpool,0,0,0.0,0
+617,Freddie Woodman,Goalkeeper,ENG,,Liverpool,0,0,0.0,0
+618,Robin Roefs,Goalkeeper,,,Sunderland,0,0,0.0,0
+619,Granit Xhaka,Midfielder,,,Sunderland,0,0,0.0,0
+620,Noah Sadiki,Midfielder,,,Sunderland,0,0,0.0,0
+621,Trai Hume,Defender,NIR,,Sunderland,0,0,0.0,0
+622,Nordi Mukiele,Defender,,,Sunderland,0,0,0.0,0
+623,Omar Alderete,Defender,,,Sunderland,0,0,0.0,0
+624,Enzo Le Fée,Forward,,,Sunderland,0,0,0.0,0
+626,Reinildo Mandava,Defender,,,Sunderland,0,0,0.0,0
+627,Chemsdine Talbi,Forward,,,Sunderland,0,0,0.0,0
+629,Habib Diarra,Midfielder,,,Sunderland,0,0,0.0,0
+630,Bertrand Traoré,Forward,,,Sunderland,0,0,0.0,0
+631,Simon Adingra,Forward,,,Sunderland,0,0,0.0,0
+633,Chris Rigg,Midfielder,ENG,,Sunderland,0,0,0.0,0
+634,Lutsharel Geertruida,Defender,,,Sunderland,0,0,0.0,0
+635,Arthur Masuaku,Defender,,,Sunderland,0,0,0.0,0
+636,Jenson Seelt,Defender,,,Sunderland,0,0,0.0,0
+637,Brian Brobbey,Forward,,,Sunderland,0,0,0.0,0
+638,Patrick Roberts,Midfielder,ENG,,Sunderland,0,0,0.0,0
+639,Marc Guiu,Forward,,,Chelsea,0,0,0.0,0
+640,Dan Neil,Midfielder,ENG,,Sunderland,0,0,0.0,0
+641,Harrison Jones,Midfielder,ENG,,Sunderland,0,0,0.0,0
+642,Luke O'Nien,Defender,ENG,,Sunderland,0,0,0.0,0
+643,Anthony Patterson,Goalkeeper,ENG,,Sunderland,0,0,0.0,0
+644,Đorđe Petrović,Goalkeeper,,,Bournemouth,0,0,0.0,0
+645,Adrien Truffert,Defender,,,Bournemouth,0,0,0.0,0
+647,Marcos Senesi,Defender,,,Bournemouth,0,0,0.0,0
+648,Tyler Adams,Midfielder,,,Bournemouth,0,0,0.0,0
+649,Marcus Tavernier,Midfielder,ENG,,Bournemouth,0,0,0.0,0
+650,Alex Scott,Midfielder,ENG,,Bournemouth,0,0,0.0,0
+651,Bafodé Diakité,Defender,,,Bournemouth,0,0,0.0,0
+652,Evanilson,Forward,,,Bournemouth,0,0,0.0,0
+653,David Brooks,Forward,WLS,,Bournemouth,0,0,0.0,0
+654,Álex Jiménez,Defender,,,Bournemouth,0,0,0.0,0
+655,Justin Kluivert,Midfielder,,,Bournemouth,0,0,0.0,0
+656,Eli Junior Kroupi,Forward,,,Bournemouth,0,0,0.0,0
+657,Adam Smith,Defender,ENG,,Bournemouth,0,0,0.0,0
+658,James Hill,Defender,ENG,,Bournemouth,0,0,0.0,0
+659,Veljko Milosavljević,Defender,,,Bournemouth,0,0,0.0,0
+660,Ryan Christie,Midfielder,SCT,,Bournemouth,0,0,0.0,0
+661,Amine Adli,Forward,,,Bournemouth,0,0,0.0,0
+662,Ben Gannon-Doak,Forward,SCT,,Bournemouth,0,0,0.0,0
+663,Lewis Cook,Defender,ENG,,Bournemouth,0,0,0.0,0
+664,Hamed Junior Traorè,Midfielder,,,Bournemouth,0,0,0.0,0
+665,Ben Winterburn,Midfielder,ENG,,Bournemouth,0,0,0.0,0
+666,Julio Soler,Forward,,,Bournemouth,0,0,0.0,0
+667,Enes Ünal,Forward,,,Bournemouth,0,0,0.0,0
+668,Julian Araujo,Defender,,,Bournemouth,0,0,0.0,0
+669,Philip Billing,Midfielder,,,Bournemouth,0,0,0.0,0
+670,Will Dennis,Goalkeeper,ENG,,Bournemouth,0,0,0.0,0
+671,Romain Faivre,Forward,,,Bournemouth,0,0,0.0,0
+672,Remy Rees-Dottin,Forward,ENG,,Bournemouth,0,0,0.0,0
+673,Guglielmo Vicario,Goalkeeper,,,Tottenham,0,0,0.0,0
+674,Micky van de Ven,Defender,,,Tottenham,0,0,0.0,0
+675,Mohammed Kudus,Forward,,,Tottenham,0,0,0.0,0
+676,Pedro Porro,Defender,,,Tottenham,0,0,0.0,0
+677,João Palhinha,Midfielder,,,Tottenham,0,0,0.0,0
+678,Djed Spence,Defender,ENG,,Tottenham,0,0,0.0,0
+679,Rodrigo Bentancur,Midfielder,,,Tottenham,0,0,0.0,0
+680,Cristian Romero,Defender,,,Tottenham,0,0,0.0,0
+682,Pape Matar Sarr,Midfielder,,,Tottenham,0,0,0.0,0
+683,Xavi Simons,Forward,,,Tottenham,0,0,0.0,0
+684,Lucas Bergvall,Midfielder,,,Tottenham,0,0,0.0,0
+686,Wilson Odobert,Forward,,,Tottenham,0,0,0.0,0
+687,Destiny Udogie,Defender,,,Tottenham,0,0,0.0,0
+688,Kevin Danso,Defender,,,Tottenham,0,0,0.0,0
+689,Mathys Tel,Forward,,,Tottenham,0,0,0.0,0
+690,Randal Kolo Muani,Forward,,,Tottenham,0,0,0.0,0
+691,Archie Gray,Midfielder,ENG,,Tottenham,0,0,0.0,0
+692,Dominic Solanke,Forward,ENG,,Tottenham,0,0,0.0,0
+693,Jun'ai Byfield,Defender,ENG,,Tottenham,0,0,0.0,0
+694,Ben Davies,Defender,WLS,,Tottenham,0,0,0.0,0
+695,Antonín Kinský,Goalkeeper,,,Tottenham,0,0,0.0,0
+696,Dane Scarlett,Forward,ENG,,Tottenham,0,0,0.0,0
+697,Manor Solomon,Forward,,,Tottenham,0,0,0.0,0
+698,Luka Vušković,Defender,,,Tottenham,0,0,0.0,0
+699,João Pedro,Forward,,,Chelsea,0,0,0.0,0
+700,Robert Sánchez,Goalkeeper,,,Chelsea,0,0,0.0,0
+701,Pedro Neto,Forward,,,Chelsea,0,0,0.0,0
+702,Moisés Caicedo,Midfielder,,,Chelsea,0,0,0.0,0
+703,Marc Cucurella,Defender,,,Chelsea,0,0,0.0,0
+704,Enzo Fernández,Midfielder,,,Chelsea,0,0,0.0,0
+705,Trevoh Chalobah,Defender,ENG,,Chelsea,0,0,0.0,0
+706,Reece James,Defender,ENG,,Chelsea,0,0,0.0,0
+707,Malo Gusto,Defender,,,Chelsea,0,0,0.0,0
+708,Joshua Acheampong,Defender,ENG,,Chelsea,0,0,0.0,0
+709,Estêvão Willian,Forward,,,Chelsea,0,0,0.0,0
+710,Alejandro Garnacho,Forward,,,Chelsea,0,0,0.0,0
+711,Tosin Adarabioyo,Defender,ENG,,Chelsea,0,0,0.0,0
+712,Wesley Fofana,Defender,,,Chelsea,0,0,0.0,0
+713,Jamie Gittens,Forward,ENG,,Chelsea,0,0,0.0,0
+714,Andrey Santos,Midfielder,,,Chelsea,0,0,0.0,0
+715,Jorrel Hato,Defender,,,Chelsea,0,0,0.0,0
+716,Cole Palmer,Midfielder,ENG,,Chelsea,0,0,0.0,0
+717,Liam Delap,Forward,ENG,,Chelsea,0,0,0.0,0
+719,Roméo Lavia,Midfielder,,,Chelsea,0,0,0.0,0
+720,Benoît Badiashile,Defender,,,Chelsea,0,0,0.0,0
+721,Facundo Buonanotte,Midfielder,,,Chelsea,0,0,0.0,0
+722,Tyrique George,Forward,ENG,,Chelsea,0,0,0.0,0
+723,Filip Jørgensen,Goalkeeper,,,Chelsea,0,0,0.0,0
+724,Landon Emenalo,Midfielder,ENG,,Chelsea,0,0,0.0,0
+725,Dario Essugo,Midfielder,,,Chelsea,0,0,0.0,0
+726,Gaga Slonina,Goalkeeper,,,Chelsea,0,0,0.0,0
+727,Matthijs de Ligt,Defender,,,Manchester Utd,0,0,0.0,0
+728,Bruno Fernandes,Midfielder,,,Manchester Utd,0,0,0.0,0
+729,Bryan Mbeumo,Midfielder,,,Manchester Utd,0,0,0.0,0
+730,Luke Shaw,Defender,ENG,,Manchester Utd,0,0,0.0,0
+731,Amad Diallo,Defender,,,Manchester Utd,0,0,0.0,0
+732,Casemiro,Midfielder,,,Manchester Utd,0,0,0.0,0
+733,Leny Yoro,Defender,,,Manchester Utd,0,0,0.0,0
+734,Matheus Cunha,Midfielder,,,Manchester Utd,0,0,0.0,0
+735,Diogo Dalot,Defender,,,Manchester Utd,0,0,0.0,0
+736,Benjamin Šeško,Forward,,,Manchester Utd,0,0,0.0,0
+737,Altay Bayındır,Goalkeeper,,,Manchester Utd,0,0,0.0,0
+738,Patrick Dorgu,Defender,,,Manchester Utd,0,0,0.0,0
+739,Mason Mount,Midfielder,ENG,,Manchester Utd,0,0,0.0,0
+740,Senne Lammens,Goalkeeper,,,Manchester Utd,0,0,0.0,0
+741,Harry Maguire,Defender,ENG,,Manchester Utd,0,0,0.0,0
+742,Manuel Ugarte,Midfielder,,,Manchester Utd,0,0,0.0,0
+743,Noussair Mazraoui,Defender,,,Manchester Utd,0,0,0.0,0
+744,Kobbie Mainoo,Midfielder,ENG,,Manchester Utd,0,0,0.0,0
+745,Joshua Zirkzee,Forward,,,Manchester Utd,0,0,0.0,0
+746,Ayden Heaven,Defender,ENG,,Manchester Utd,0,0,0.0,0
+747,Tyler Fredricson,Defender,ENG,,Manchester Utd,0,0,0.0,0
+748,Tom Heaton,Goalkeeper,ENG,,Manchester Utd,0,0,0.0,0
+749,Diego León,Defender,,,Manchester Utd,0,0,0.0,0
+750,Tyrell Malacia,Defender,,,Manchester Utd,0,0,0.0,0
+751,André Onana,Goalkeeper,,,Manchester Utd,0,0,0.0,0
+752,Marc Guéhi,Defender,ENG,,Crystal Palace,0,0,0.0,0
+753,Dean Henderson,Goalkeeper,ENG,,Crystal Palace,0,0,0.0,0
+754,Maxence Lacroix,Defender,,,Crystal Palace,0,0,0.0,0
+755,Chris Richards,Defender,,,Crystal Palace,0,0,0.0,0
+756,Tyrick Mitchell,Defender,ENG,,Crystal Palace,0,0,0.0,0
+757,Daniel Muñoz,Defender,,,Crystal Palace,0,0,0.0,0
+758,Jean-Philippe Mateta,Forward,,,Crystal Palace,0,0,0.0,0
+759,Ismaila Sarr,Midfielder,,,Crystal Palace,0,0,0.0,0
+760,Daichi Kamada,Midfielder,,,Crystal Palace,0,0,0.0,0
+761,Adam Wharton,Midfielder,ENG,,Crystal Palace,0,0,0.0,0
+762,Yeremi Pino,Midfielder,,,Crystal Palace,0,0,0.0,0
+763,Will Hughes,Midfielder,ENG,,Crystal Palace,0,0,0.0,0
+764,Jefferson Lerma,Midfielder,,,Crystal Palace,0,0,0.0,0
+765,Justin Devenny,Midfielder,NIR,,Crystal Palace,0,0,0.0,0
+767,Eddie Nketiah,Midfielder,ENG,,Crystal Palace,0,0,0.0,0
+768,Romain Esse,Forward,ENG,,Crystal Palace,0,0,0.0,0
+769,Christantus Uche,Midfielder,,,Crystal Palace,0,0,0.0,0
+770,Nathaniel Clyne,Defender,ENG,,Crystal Palace,0,0,0.0,0
+771,Odsonne Édouard,Forward,,,Crystal Palace,0,0,0.0,0
+772,Jaydee Canvot,Defender,,,Crystal Palace,0,0,0.0,0
+773,Borna Sosa,Defender,,,Crystal Palace,0,0,0.0,0
+774,Walter Benítez,Goalkeeper,,,Crystal Palace,0,0,0.0,0
+775,Rio Cardines,Midfielder,,,Crystal Palace,0,0,0.0,0
+776,Remi Matthews,Goalkeeper,ENG,,Crystal Palace,0,0,0.0,0
+777,Jesurun Rak Sakyi,Forward,ENG,,Crystal Palace,0,0,0.0,0
+778,Kaden Rodney,Defender,ENG,,Crystal Palace,0,0,0.0,0
+779,Lewis Dunk,Defender,ENG,,Brighton,0,0,0.0,0
+780,Jan Paul van Hecke,Defender,,,Brighton,0,0,0.0,0
+781,Bart Verbruggen,Goalkeeper,,,Brighton,0,0,0.0,0
+782,Yankuba Minteh,Forward,,,Brighton,0,0,0.0,0
+783,Carlos Baleba,Midfielder,,,Brighton,0,0,0.0,0
+784,Yasin Ayari,Midfielder,,,Brighton,0,0,0.0,0
+785,Danny Welbeck,Forward,ENG,,Brighton,0,0,0.0,0
+786,Georginio Rutter,Forward,,,Brighton,0,0,0.0,0
+787,Ferdi Kadioglu,Defender,,,Brighton,0,0,0.0,0
+788,Mats Wieffer,Defender,,,Brighton,0,0,0.0,0
+789,Kaoru Mitoma,Forward,,,Brighton,0,0,0.0,0
+790,Diego Gómez,Midfielder,,,Brighton,0,0,0.0,0
+791,Maxim De Cuyper,Defender,,,Brighton,0,0,0.0,0
+792,Joël Veltman,Defender,,,Brighton,0,0,0.0,0
+793,Brajan Gruda,Midfielder,,,Brighton,0,0,0.0,0
+795,Jack Hinshelwood,Midfielder,ENG,,Brighton,0,0,0.0,0
+796,James Milner,Midfielder,ENG,,Brighton,0,0,0.0,0
+797,Stefanos Tzimas,Midfielder,,,Brighton,0,0,0.0,0
+798,Tom Watson,Forward,ENG,,Brighton,0,0,0.0,0
+799,Diego Coppola,Defender,,,Brighton,0,0,0.0,0
+800,Charalampos Kostoulas,Midfielder,,,Brighton,0,0,0.0,0
+801,Joe Knight,Midfielder,ENG,,Brighton,0,0,0.0,0
+802,Nehemiah Oriola,Midfielder,ENG,,Brighton,0,0,0.0,0
+803,Olivier Boscagli,Defender,,,Brighton,0,0,0.0,0
+804,Jason Steele,Goalkeeper,ENG,,Brighton,0,0,0.0,0
+805,Morgan Rogers,Midfielder,ENG,,Aston Villa,0,0,0.0,0
+806,Matty Cash,Defender,,,Aston Villa,0,0,0.0,0
+807,John McGinn,Forward,SCT,,Aston Villa,0,0,0.0,0
+808,Ollie Watkins,Forward,ENG,,Aston Villa,0,0,0.0,0
+809,Ezri Konsa,Defender,ENG,,Aston Villa,0,0,0.0,0
+810,Lucas Digne,Defender,,,Aston Villa,0,0,0.0,0
+811,Emiliano Martínez,Goalkeeper,,,Aston Villa,0,0,0.0,0
+812,Boubacar Kamara,Midfielder,,,Aston Villa,0,0,0.0,0
+813,Tyrone Mings,Defender,ENG,,Aston Villa,0,0,0.0,0
+814,Pau Torres,Defender,,,Aston Villa,0,0,0.0,0
+815,Evann Guessand,Forward,,,Aston Villa,0,0,0.0,0
+816,Amadou Onana,Midfielder,,,Aston Villa,0,0,0.0,0
+817,Youri Tielemans,Midfielder,,,Aston Villa,0,0,0.0,0
+818,Emi Buendía,Forward,,,Aston Villa,0,0,0.0,0
+819,Donyell Malen,Forward,,,Aston Villa,0,0,0.0,0
+820,Lamare Bogarde,Midfielder,,,Aston Villa,0,0,0.0,0
+821,Marco Bizot,Goalkeeper,,,Aston Villa,0,0,0.0,0
+822,Ian Maatsen,Defender,,,Aston Villa,0,0,0.0,0
+824,Jadon Sancho,Forward,ENG,,Aston Villa,0,0,0.0,0
+825,Ross Barkley,Midfielder,ENG,,Aston Villa,0,0,0.0,0
+826,Victor Lindelöf,Midfielder,,,Aston Villa,0,0,0.0,0
+827,Bradley Burrowes,Defender,ENG,,Aston Villa,0,0,0.0,0
+828,Benjamin Broggio,Forward,ENG,,Aston Villa,0,0,0.0,0
+829,Samuel Iling-Junior,Defender,ENG,,Aston Villa,0,0,0.0,0
+830,Jamaldeen Jimoh,Midfielder,ENG,,Aston Villa,0,0,0.0,0
+831,Travis Patterson,Defender,ENG,,Aston Villa,0,0,0.0,0
+832,Sam Proctor,Goalkeeper,ENG,,Aston Villa,0,0,0.0,0
+833,Triston Rowe,Defender,ENG,,Aston Villa,0,0,0.0,0
+834,James Wright,Goalkeeper,ENG,,Aston Villa,0,0,0.0,0
+835,Nathan Collins,Defender,,,Brentford,0,0,0.0,0
+836,Sepp van den Berg,Defender,,,Brentford,0,0,0.0,0
+837,Caoimhín Kelleher,Goalkeeper,,,Brentford,0,0,0.0,0
+838,Michael Kayode,Defender,,,Brentford,0,0,0.0,0
+840,Yehor Yarmoliuk,Midfielder,,,Brentford,0,0,0.0,0
+841,Kevin Schade,Forward,,,Brentford,0,0,0.0,0
+842,Jordan Henderson,Midfielder,ENG,,Brentford,0,0,0.0,0
+843,Mikkel Damsgaard,Midfielder,,,Brentford,0,0,0.0,0
+844,Dango Ouattara,Forward,,,Brentford,0,0,0.0,0
+845,Keane Lewis-Potter,Defender,ENG,,Brentford,0,0,0.0,0
+846,Kristoffer Ajer,Defender,,,Brentford,0,0,0.0,0
+847,Mathias Jensen,Midfielder,,,Brentford,0,0,0.0,0
+848,Aaron Hickey,Defender,SCT,,Brentford,0,0,0.0,0
+849,Ethan Pinnock,Defender,,,Brentford,0,0,0.0,0
+850,Rico Henry,Defender,ENG,,Brentford,0,0,0.0,0
+851,Fabio Carvalho,Forward,,,Brentford,0,0,0.0,0
+852,Antoni Milambo,Midfielder,,,Brentford,0,0,0.0,0
+853,Vitaly Janelt,Midfielder,,,Brentford,0,0,0.0,0
+854,Frank Onyeka,Midfielder,,,Brentford,0,0,0.0,0
+855,Reiss Nelson,Forward,ENG,,Brentford,0,0,0.0,0
+856,Benjamin Arthur,Defender,ENG,,Brentford,0,0,0.0,0
+857,Myles Peart-Harris,Midfielder,ENG,,Brentford,0,0,0.0,0
+858,Mads Roerslev,Defender,,,Brentford,0,0,0.0,0
+859,Hákon Valdimarsson,Goalkeeper,,,Brentford,0,0,0.0,0
+860,Dan Burn,Defender,ENG,,Newcastle Utd,0,0,0.0,0
+861,Nick Pope,Goalkeeper,ENG,,Newcastle Utd,0,0,0.0,0
+862,Bruno Guimarães,Midfielder,,,Newcastle Utd,0,0,0.0,0
+863,Sandro Tonali,Midfielder,,,Newcastle Utd,0,0,0.0,0
+864,Joelinton,Midfielder,,,Newcastle Utd,0,0,0.0,0
+865,Kieran Trippier,Defender,ENG,,Newcastle Utd,0,0,0.0,0
+866,Sven Botman,Defender,,,Newcastle Utd,0,0,0.0,0
+867,Nick Woltemade,Forward,,,Newcastle Utd,0,0,0.0,0
+868,Anthony Gordon,Forward,ENG,,Newcastle Utd,0,0,0.0,0
+869,Malick Thiaw,Defender,,,Newcastle Utd,0,0,0.0,0
+870,Valentino Livramento,Defender,ENG,,Newcastle Utd,0,0,0.0,0
+871,Jacob Murphy,Forward,ENG,,Newcastle Utd,0,0,0.0,0
+872,Fabian Schär,Defender,,,Newcastle Utd,0,0,0.0,0
+873,Anthony Elanga,Forward,,,Newcastle Utd,0,0,0.0,0
+874,Harvey Barnes,Forward,ENG,,Newcastle Utd,0,0,0.0,0
+875,Lewis Miley,Midfielder,ENG,,Newcastle Utd,0,0,0.0,0
+876,William Osula,Forward,,,Newcastle Utd,0,0,0.0,0
+877,Lewis Hall,Defender,ENG,,Newcastle Utd,0,0,0.0,0
+878,Jacob Ramsey,Midfielder,ENG,,Newcastle Utd,0,0,0.0,0
+879,Joe Willock,Midfielder,ENG,,Newcastle Utd,0,0,0.0,0
+880,Emil Krafth,Defender,,,Newcastle Utd,0,0,0.0,0
+881,Jamaal Lascelles,Defender,ENG,,Newcastle Utd,0,0,0.0,0
+882,Aaron Ramsdale,Goalkeeper,ENG,,Newcastle Utd,0,0,0.0,0
+883,Park Seungsoo,Midfielder,,,Newcastle Utd,0,0,0.0,0
+884,James Garner,Midfielder,ENG,,Everton,0,0,0.0,0
+885,Jordan Pickford,Goalkeeper,ENG,,Everton,0,0,0.0,0
+886,James Tarkowski,Defender,ENG,,Everton,0,0,0.0,0
+887,Michael Keane,Defender,ENG,,Everton,0,0,0.0,0
+888,Jake O'Brien,Defender,,,Everton,0,0,0.0,0
+889,Idrissa Gana Gueye,Midfielder,,,Everton,0,0,0.0,0
+890,Iliman Ndiaye,Forward,,,Everton,0,0,0.0,0
+891,Kiernan Dewsbury-Hall,Midfielder,ENG,,Everton,0,0,0.0,0
+892,Jack Grealish,Forward,ENG,,Everton,0,0,0.0,0
+893,Vitaliy Mykolenko,Defender,,,Everton,0,0,0.0,0
+894,Beto,Forward,,,Everton,0,0,0.0,0
+895,Thierno Barry,Forward,,,Everton,0,0,0.0,0
+896,Tim Iroegbunam,Midfielder,ENG,,Everton,0,0,0.0,0
+897,Carlos Alcaraz,Forward,,,Everton,0,0,0.0,0
+898,Tyler Dibling,Forward,ENG,,Everton,0,0,0.0,0
+899,Merlin Röhl,Midfielder,,,Everton,0,0,0.0,0
+900,Dwight McNeil,Forward,ENG,,Everton,0,0,0.0,0
+901,Séamus Coleman,Forward,,,Everton,0,0,0.0,0
+902,Harrison Armstrong,Forward,ENG,,Everton,0,0,0.0,0
+903,Adam Aznou,Defender,,,Everton,0,0,0.0,0
+904,Elijah Campbell,Defender,ENG,,Everton,0,0,0.0,0
+905,Youssef Chermiti,Forward,,,Everton,0,0,0.0,0
+906,Tom King,Goalkeeper,WLS,,Everton,0,0,0.0,0
+907,Tyler Onyango,Midfielder,ENG,,Everton,0,0,0.0,0
+908,Nathan Patterson,Defender,SCT,,Everton,0,0,0.0,0
+909,Mark Travers,Goalkeeper,,,Everton,0,0,0.0,0
+910,Harry Tyrer,Goalkeeper,ENG,,Everton,0,0,0.0,0
+911,Bernd Leno,Goalkeeper,,,Fulham,0,0,0.0,0
+912,Sander Berge,Midfielder,,,Fulham,0,0,0.0,0
+913,Alex Iwobi,Forward,,,Fulham,0,0,0.0,0
+914,Calvin Bassey,Defender,,,Fulham,0,0,0.0,0
+915,Joachim Andersen,Defender,,,Fulham,0,0,0.0,0
+916,Ryan Sessegnon,Defender,ENG,,Fulham,0,0,0.0,0
+917,Joshua King,Midfielder,ENG,,Fulham,0,0,0.0,0
+918,Saša Lukić,Midfielder,,,Fulham,0,0,0.0,0
+919,Kenny Tete,Defender,,,Fulham,0,0,0.0,0
+920,Harry Wilson,Forward,WLS,,Fulham,0,0,0.0,0
+921,Timothy Castagne,Defender,,,Fulham,0,0,0.0,0
+922,Raúl Jiménez,Forward,,,Fulham,0,0,0.0,0
+924,Issa Diop,Defender,,,Fulham,0,0,0.0,0
+925,Jorge Cuenca,Defender,,,Fulham,0,0,0.0,0
+926,Adama Traoré,Forward,,,Fulham,0,0,0.0,0
+927,Kevin,Forward,,,Fulham,0,0,0.0,0
+928,Emile Smith Rowe,Midfielder,ENG,,Fulham,0,0,0.0,0
+929,Tom Cairney,Midfielder,SCT,,Fulham,0,0,0.0,0
+930,Antonee Robinson,Defender,,,Fulham,0,0,0.0,0
+931,Samuel Chukwueze,Forward,,,Fulham,0,0,0.0,0
+932,Jonah Kusi-Asare,Forward,,,Fulham,0,0,0.0,0
+933,Samuel Amissah,Defender,ENG,,Fulham,0,0,0.0,0
+934,Benjamin Lecomte,Goalkeeper,,,Fulham,0,0,0.0,0
+935,Andreas Pereira,Midfielder,,,Fulham,0,0,0.0,0
+936,Harrison Reed,Midfielder,ENG,,Fulham,0,0,0.0,0
+937,Joe Rodon,Defender,WLS,,Leeds United,0,0,0.0,0
+938,Jayden Bogle,Defender,ENG,,Leeds United,0,0,0.0,0
+939,Gabriel Gudmundsson,Defender,,,Leeds United,0,0,0.0,0
+940,Pascal Struijk,Defender,,,Leeds United,0,0,0.0,0
+941,Sean Longstaff,Midfielder,ENG,,Leeds United,0,0,0.0,0
+942,Anton Stach,Midfielder,,,Leeds United,0,0,0.0,0
+943,Ethan Ampadu,Midfielder,WLS,,Leeds United,0,0,0.0,0
+944,Brenden Aaronson,Forward,,,Leeds United,0,0,0.0,0
+945,Dominic Calvert-Lewin,Forward,ENG,,Leeds United,0,0,0.0,0
+946,Noah Okafor,Forward,,,Leeds United,0,0,0.0,0
+947,Karl Darlow,Goalkeeper,WLS,,Leeds United,0,0,0.0,0
+948,Lucas Perri,Goalkeeper,,,Leeds United,0,0,0.0,0
+949,Ao Tanaka,Midfielder,,,Leeds United,0,0,0.0,0
+950,Daniel James,Forward,WLS,,Leeds United,0,0,0.0,0
+951,Wilfried Gnonto,Forward,,,Leeds United,0,0,0.0,0
+952,Ilia Gruev,Midfielder,,,Leeds United,0,0,0.0,0
+953,Jaka Bijol,Defender,,,Leeds United,0,0,0.0,0
+954,Joël Piroe,Forward,,,Leeds United,0,0,0.0,0
+955,Jack Harrison,Forward,ENG,,Leeds United,0,0,0.0,0
+957,James Justin,Defender,ENG,,Leeds United,0,0,0.0,0
+958,Sam Byram,Defender,ENG,,Leeds United,0,0,0.0,0
+959,Sebastiaan Bornauw,Defender,,,Leeds United,0,0,0.0,0
+960,Harry Gray,Forward,ENG,,Leeds United,0,0,0.0,0
+961,Illan Meslier,Goalkeeper,,,Leeds United,0,0,0.0,0
+962,Largie Ramazani,Forward,,,Leeds United,0,0,0.0,0
+963,Martin Dúbravka,Goalkeeper,,,Burnley,0,0,0.0,0
+964,Kyle Walker,Defender,ENG,,Burnley,0,0,0.0,0
+965,Quilindschy Hartman,Defender,,,Burnley,0,0,0.0,0
+966,Maxime Estève,Defender,,,Burnley,0,0,0.0,0
+967,Josh Cullen,Midfielder,,,Burnley,0,0,0.0,0
+968,Jaidon Anthony,Midfielder,ENG,,Burnley,0,0,0.0,0
+969,Lyle Foster,Forward,,,Burnley,0,0,0.0,0
+970,Florentino Luís,Midfielder,,,Burnley,0,0,0.0,0
+971,Josh Laurent,Defender,ENG,,Burnley,0,0,0.0,0
+972,Hjalmar Ekdal,Defender,,,Burnley,0,0,0.0,0
+973,Lesley Ugochukwu,Midfielder,,,Burnley,0,0,0.0,0
+974,Jacob Bruun Larsen,Forward,,,Burnley,0,0,0.0,0
+975,Loum Tchaouna,Midfielder,,,Burnley,0,0,0.0,0
+976,Axel Tuanzebe,Defender,,,Burnley,0,0,0.0,0
+977,Zian Flemming,Forward,,,Burnley,0,0,0.0,0
+978,Hannibal Mejbri,Midfielder,,,Burnley,0,0,0.0,0
+979,Oliver Sonne,Defender,,,Burnley,0,0,0.0,0
+980,Armando Broja,Forward,,,Burnley,0,0,0.0,0
+981,Joe Worrall,Defender,ENG,,Burnley,0,0,0.0,0
+982,Marcus Edwards,Midfielder,ENG,,Burnley,0,0,0.0,0
+983,Ashley Barnes,Forward,ENG,,Burnley,0,0,0.0,0
+984,Bashir Humphreys,Defender,ENG,,Burnley,0,0,0.0,0
+985,Lucas,Defender,,,Burnley,0,0,0.0,0
+986,Aaron Ramsey,Midfielder,ENG,,Burnley,0,0,0.0,0
+987,Max Weiß,Goalkeeper,,,Burnley,0,0,0.0,0
+988,Jarrod Bowen,Forward,ENG,,West Ham,0,0,0.0,0
+989,Max Kilman,Defender,ENG,,West Ham,0,0,0.0,0
+990,Lucas Paquetá,Midfielder,,,West Ham,0,0,0.0,0
+991,El Hadji Malick Diouf,Defender,,,West Ham,0,0,0.0,0
+992,Crysencio Summerville,Forward,,,West Ham,0,0,0.0,0
+993,Mateus Fernandes,Midfielder,,,West Ham,0,0,0.0,0
+994,Alphonse Areola,Goalkeeper,,,West Ham,0,0,0.0,0
+995,Konstantinos Mavropanos,Defender,,,West Ham,0,0,0.0,0
+996,Aaron Wan-Bissaka,Defender,,,West Ham,0,0,0.0,0
+997,Kyle Walker-Peters,Defender,ENG,,West Ham,0,0,0.0,0
+998,James Ward-Prowse,Midfielder,ENG,,West Ham,0,0,0.0,0
+999,Tomáš Souček,Midfielder,,,West Ham,0,0,0.0,0
+1000,Jean-Clair Todibo,Defender,,,West Ham,0,0,0.0,0
+1001,Niclas Füllkrug,Forward,,,West Ham,0,0,0.0,0
+1002,Mads Hermansen,Goalkeeper,,,West Ham,0,0,0.0,0
+1003,Callum Wilson,Forward,ENG,,West Ham,0,0,0.0,0
+1004,Nayef Aguerd,Defender,,,West Ham,0,0,0.0,0
+1005,Soungoutou Magassa,Midfielder,,,West Ham,0,0,0.0,0
+1006,Andy Irving,Midfielder,SCT,,West Ham,0,0,0.0,0
+1007,Oliver Scarles,Defender,ENG,,West Ham,0,0,0.0,0
+1008,Freddie Potts,Midfielder,ENG,,West Ham,0,0,0.0,0
+1009,Guido Rodríguez,Midfielder,,,West Ham,0,0,0.0,0
+1010,Callum Marshall,Forward,NIR,,West Ham,0,0,0.0,0
+1011,Luis Guilherme,Forward,,,West Ham,0,0,0.0,0
+1012,Igor,Defender,,,West Ham,0,0,0.0,0
+1013,Edson Álvarez,Defender,,,West Ham,0,0,0.0,0
+1014,Łukasz Fabiański,Goalkeeper,,,West Ham,0,0,0.0,0
+1015,Ezra Mayers,Defender,,,West Ham,0,0,0.0,0
+1016,Elliot Anderson,Midfielder,ENG,,Nott'ham Forest,0,0,0.0,0
+1017,Nikola Milenković,Defender,,,Nott'ham Forest,0,0,0.0,0
+1018,Matz Sels,Goalkeeper,,,Nott'ham Forest,0,0,0.0,0
+1019,Neco Williams,Defender,WLS,,Nott'ham Forest,0,0,0.0,0
+1020,Morgan Gibbs-White,Midfielder,ENG,,Nott'ham Forest,0,0,0.0,0
+1022,Murillo,Defender,,,Nott'ham Forest,0,0,0.0,0
+1024,Callum Hudson-Odoi,Forward,ENG,,Nott'ham Forest,0,0,0.0,0
+1025,Ibrahim Sangaré,Midfielder,,,Nott'ham Forest,0,0,0.0,0
+1026,Morato,Defender,,,Nott'ham Forest,0,0,0.0,0
+1027,Douglas Luiz,Midfielder,,,Nott'ham Forest,0,0,0.0,0
+1028,Nicolò Savona,Defender,,,Nott'ham Forest,0,0,0.0,0
+1029,Ola Aina,Defender,,,Nott'ham Forest,0,0,0.0,0
+1030,Oleksandr Zinchenko,Defender,,,Nott'ham Forest,0,0,0.0,0
+1031,Igor Jesus,Forward,,,Nott'ham Forest,0,0,0.0,0
+1032,Dilane Bakwa,Forward,,,Nott'ham Forest,0,0,0.0,0
+1033,Ryan Yates,Midfielder,ENG,,Nott'ham Forest,0,0,0.0,0
+1034,James Mcatee,Midfielder,ENG,,Nott'ham Forest,0,0,0.0,0
+1035,Taiwo Awoniyi,Forward,,,Nott'ham Forest,0,0,0.0,0
+1036,Jair Cunha,Defender,,,Nott'ham Forest,0,0,0.0,0
+1037,Nicolás Domínguez,Midfielder,,,Nott'ham Forest,0,0,0.0,0
+1038,Omari Hutchinson,Forward,ENG,,Nott'ham Forest,0,0,0.0,0
+1039,Arnaud Kalimuendo,Forward,,,Nott'ham Forest,0,0,0.0,0
+1040,Jota Silva,Forward,,,Nott'ham Forest,0,0,0.0,0
+1041,Zach Abbott,Defender,ENG,,Nott'ham Forest,0,0,0.0,0
+1042,Willy Boly,Defender,,,Nott'ham Forest,0,0,0.0,0
+1043,Angus Gunn,Goalkeeper,SCT,,Nott'ham Forest,0,0,0.0,0
+1044,John,Goalkeeper,,,Nott'ham Forest,0,0,0.0,0
+1045,Marshall Munetsi,Midfielder,,,Wolves,0,0,0.0,0
+1046,João Gomes,Midfielder,,,Wolves,0,0,0.0,0
+1047,Hugo Bueno,Defender,,,Wolves,0,0,0.0,0
+1048,Ladislav Krejčí,Defender,,,Wolves,0,0,0.0,0
+1049,Jørgen Strand Larsen,Forward,,,Wolves,0,0,0.0,0
+1050,André,Midfielder,,,Wolves,0,0,0.0,0
+1051,Jhon Arias,Forward,,,Wolves,0,0,0.0,0
+1052,Santiago Bueno,Defender,,,Wolves,0,0,0.0,0
+1053,Emmanuel Agbadou,Defender,,,Wolves,0,0,0.0,0
+1054,Sam Johnstone,Goalkeeper,ENG,,Wolves,0,0,0.0,0
+1055,Toti Gomes,Defender,,,Wolves,0,0,0.0,0
+1056,Jean-Ricner Bellegarde,Midfielder,,,Wolves,0,0,0.0,0
+1057,José Sá,Goalkeeper,,,Wolves,0,0,0.0,0
+1058,Rodrigo Gomes,Forward,,,Wolves,0,0,0.0,0
+1059,Hwang Hee-chan,Forward,,,Wolves,0,0,0.0,0
+1060,Matt Doherty,Defender,,,Wolves,0,0,0.0,0
+1061,Ki-Jana Hoever,Defender,,,Wolves,0,0,0.0,0
+1062,Jackson Tchatchoua,Defender,,,Wolves,0,0,0.0,0
+1063,Tolu Arokodare,Forward,,,Wolves,0,0,0.0,0
+1064,Yerson Mosquera,Defender,,,Wolves,0,0,0.0,0
+1065,David Møller Wolfe,Midfielder,,,Wolves,0,0,0.0,0
+1066,Fer López,Midfielder,,,Wolves,0,0,0.0,0
+1067,Sasa Kalajdzic,Forward,,,Wolves,0,0,0.0,0
+535,Gabriel Magalhães,Defender,,,Arsenal,0,0,0.0,0
+1068,Daniel Bentley,Goalkeeper,ENG,,Wolves,0,0,0.0,0
+536,David Raya,Goalkeeper,,,Arsenal,0,0,0.0,0
+537,Viktor Gyökeres,Forward,,,Arsenal,0,0,0.0,0
+539,Martín Zubimendi,Midfielder,,,Arsenal,0,0,0.0,0
+540,Declan Rice,Midfielder,ENG,,Arsenal,0,0,0.0,0
+541,Jurriën Timber,Defender,,,Arsenal,0,0,0.0,0
+542,William Saliba,Defender,,,Arsenal,0,0,0.0,0
+543,Bukayo Saka,Forward,ENG,,Arsenal,0,0,0.0,0
+544,Leandro Trossard,Forward,,,Arsenal,0,0,0.0,0
+545,Eberechi Eze,Midfielder,ENG,,Crystal Palace,0,0,0.0,0
+546,Noni Madueke,Forward,ENG,,Arsenal,0,0,0.0,0
+547,Martin Ødegaard,Midfielder,,,Arsenal,0,0,0.0,0
+548,Mikel Merino,Midfielder,,,Arsenal,0,0,0.0,0
+549,Cristhian Mosquera,Defender,,,Arsenal,0,0,0.0,0
+550,Gabriel Martinelli,Forward,,,Arsenal,0,0,0.0,0
+551,Ben White,Defender,ENG,,Arsenal,0,0,0.0,0
+552,Ethan Nwaneri,Midfielder,ENG,,Arsenal,0,0,0.0,0
+553,Myles Lewis-Skelly,Defender,ENG,,Arsenal,0,0,0.0,0
+554,Kai Havertz,Forward,,,Arsenal,0,0,0.0,0
+555,Max Dowman,Forward,ENG,,Arsenal,0,0,0.0,0

@@ -1,0 +1,92 @@
+match_id,match_date,home_team,away_team,home_score_final,away_score_final,result,home_xg,away_xg,venue,attendance,season,home_points,home_wins,home_draws,home_losses,home_gf,home_ga,home_gd,away_points,away_wins,away_draws,away_losses,away_gf,away_ga,away_gd
+733,2025-08-15,Liverpool,Bournemouth,4,2,H,2.2,1.7,Anfield,,2024-25,18,6,0,4,18,14,4,18,5,3,2,17,14,3
+734,2025-08-16,Aston Villa,Newcastle Utd,0,0,D,0.2,1.4,Villa Park,,2024-25,15,4,3,3,9,10,-1,12,3,3,4,10,11,-1
+735,2025-08-16,Sunderland,West Ham,3,0,H,0.7,0.6,Stadium of Light,,2024-25,18,5,3,2,12,8,4,7,2,1,7,10,21,-11
+737,2025-08-16,Tottenham,Burnley,3,0,H,2.3,0.9,Tottenham Hotspur Stadium,,2024-25,17,5,2,3,17,8,9,10,3,1,6,12,19,-7
+736,2025-08-16,Brighton,Fulham,1,1,D,1.5,0.7,The American Express Stadium,,2024-25,15,4,3,3,17,15,2,11,3,2,5,12,14,-2
+738,2025-08-16,Wolves,Manchester City,0,4,A,0.6,2.4,Molineux Stadium,,2024-25,2,0,2,8,7,22,-15,19,6,1,3,20,8,12
+740,2025-08-17,Nott'ham Forest,Brentford,3,1,H,1.8,1.4,The City Ground,,2024-25,6,1,3,6,7,19,-12,13,4,1,5,14,16,-2
+741,2025-08-17,Manchester Utd,Arsenal,0,1,A,1.5,1.3,Old Trafford,,2024-25,17,5,2,3,17,16,1,25,8,1,1,18,3,15
+739,2025-08-17,Chelsea,Crystal Palace,0,0,D,1.6,0.6,Stamford Bridge,,2024-25,17,5,2,3,18,11,7,16,4,4,2,14,9,5
+742,2025-08-18,Leeds United,Everton,1,0,H,2.0,0.8,Elland Road,,2024-25,11,3,2,5,9,17,-8,12,3,3,4,10,13,-3
+747,2025-08-23,Arsenal,Leeds United,5,0,H,2.7,0.2,Emirates Stadium,,2024-25,25,8,1,1,18,3,15,11,3,2,5,9,17,-8
+743,2025-08-23,Manchester City,Tottenham,0,2,A,1.6,1.1,Etihad Stadium,,2024-25,19,6,1,3,20,8,12,17,5,2,3,17,8,9
+744,2025-08-23,Bournemouth,Wolves,1,0,H,1.3,0.5,Vitality Stadium,,2024-25,18,5,3,2,17,14,3,2,0,2,8,7,22,-15
+745,2025-08-23,Brentford,Aston Villa,1,0,H,1.2,1.2,Gtech Community Stadium,,2024-25,13,4,1,5,14,16,-2,15,4,3,3,9,10,-1
+746,2025-08-23,Burnley,Sunderland,2,0,H,1.0,0.8,Turf Moor,,2024-25,10,3,1,6,12,19,-7,18,5,3,2,12,8,4
+750,2025-08-24,Fulham,Manchester Utd,1,1,D,1.7,1.6,Craven Cottage,,2024-25,11,3,2,5,12,14,-2,17,5,2,3,17,16,1
+748,2025-08-24,Crystal Palace,Nott'ham Forest,1,1,D,1.1,0.9,Selhurst Park,,2024-25,16,4,4,2,14,9,5,6,1,3,6,7,19,-12
+749,2025-08-24,Everton,Brighton,2,0,H,1.6,2.4,Hill Dickinson Stadium,,2024-25,12,3,3,4,10,13,-3,15,4,3,3,17,15,2
+751,2025-08-25,Newcastle Utd,Liverpool,2,3,A,1.0,0.7,St James' Park,,2024-25,12,3,3,4,10,11,-1,18,6,0,4,18,14,4
+756,2025-08-30,Leeds United,Newcastle Utd,0,0,D,0.7,0.5,Elland Road,,2024-25,11,3,2,5,9,17,-8,12,3,3,4,10,11,-1
+753,2025-08-30,Manchester Utd,Burnley,3,2,H,3.6,1.2,Old Trafford,,2024-25,17,5,2,3,17,16,1,10,3,1,6,12,19,-7
+754,2025-08-30,Sunderland,Brentford,2,1,H,1.5,1.2,Stadium of Light,,2024-25,18,5,3,2,12,8,4,13,4,1,5,14,16,-2
+755,2025-08-30,Tottenham,Bournemouth,0,1,A,0.2,1.5,Tottenham Hotspur Stadium,,2024-25,17,5,2,3,17,8,9,18,5,3,2,17,14,3
+752,2025-08-30,Chelsea,Fulham,2,0,H,2.1,0.9,Stamford Bridge,,2024-25,17,5,2,3,18,11,7,11,3,2,5,12,14,-2
+760,2025-08-31,Aston Villa,Crystal Palace,0,3,A,1.1,2.6,Villa Park,,2024-25,15,4,3,3,9,10,-1,16,4,4,2,14,9,5
+757,2025-08-31,Nott'ham Forest,West Ham,0,3,A,0.7,2.4,The City Ground,,2024-25,6,1,3,6,7,19,-12,7,2,1,7,10,21,-11
+758,2025-08-31,Brighton,Manchester City,2,1,H,2.2,1.8,The American Express Stadium,,2024-25,15,4,3,3,17,15,2,19,6,1,3,20,8,12
+759,2025-08-31,Liverpool,Arsenal,1,0,H,0.5,0.5,Anfield,,2024-25,18,6,0,4,18,14,4,25,8,1,1,18,3,15
+765,2025-09-13,Bournemouth,Brighton,2,1,H,1.4,0.6,Vitality Stadium,,2024-25,18,5,3,2,17,14,3,15,4,3,3,17,15,2
+762,2025-09-13,Newcastle Utd,Wolves,1,0,H,1.5,0.5,St James' Park,,2024-25,12,3,3,4,10,11,-1,2,0,2,8,7,22,-15
+766,2025-09-13,West Ham,Tottenham,0,3,A,0.6,1.3,London Stadium,,2024-25,7,2,1,7,10,21,-11,17,5,2,3,17,8,9
+767,2025-09-13,Brentford,Chelsea,2,2,D,1.4,1.3,Gtech Community Stadium,,2024-25,13,4,1,5,14,16,-2,17,5,2,3,18,11,7
+764,2025-09-13,Everton,Aston Villa,0,0,D,2.0,0.4,Hill Dickinson Stadium,,2024-25,12,3,3,4,10,13,-3,15,4,3,3,9,10,-1
+763,2025-09-13,Crystal Palace,Sunderland,0,0,D,1.8,0.4,Selhurst Park,,2024-25,16,4,4,2,14,9,5,18,5,3,2,12,8,4
+761,2025-09-13,Arsenal,Nott'ham Forest,3,0,H,1.8,0.2,Emirates Stadium,,2024-25,25,8,1,1,18,3,15,6,1,3,6,7,19,-12
+768,2025-09-14,Burnley,Liverpool,0,1,A,0.1,2.6,Turf Moor,,2024-25,10,3,1,6,12,19,-7,18,6,0,4,18,14,4
+769,2025-09-14,Manchester City,Manchester Utd,3,0,H,2.7,1.2,Etihad Stadium,,2024-25,19,6,1,3,20,8,12,17,5,2,3,17,16,1
+774,2025-09-20,Manchester Utd,Chelsea,2,1,H,1.8,0.4,Old Trafford,,2024-25,17,5,2,3,17,16,1,17,5,2,3,18,11,7
+772,2025-09-20,Brighton,Tottenham,2,2,D,1.3,1.2,The American Express Stadium,,2024-25,15,4,3,3,17,15,2,17,5,2,3,17,8,9
+775,2025-09-20,Fulham,Brentford,3,1,H,1.0,0.6,Craven Cottage,,2024-25,11,3,2,5,12,14,-2,13,4,1,5,14,16,-2
+770,2025-09-20,Liverpool,Everton,2,1,H,0.9,0.7,Anfield,,2024-25,18,6,0,4,18,14,4,12,3,3,4,10,13,-3
+771,2025-09-20,Wolves,Leeds United,1,3,A,1.8,0.5,Molineux Stadium,,2024-25,2,0,2,8,7,22,-15,11,3,2,5,9,17,-8
+773,2025-09-20,West Ham,Crystal Palace,1,2,A,0.6,2.1,London Stadium,,2024-25,7,2,1,7,10,21,-11,16,4,4,2,14,9,5
+777,2025-09-21,Sunderland,Aston Villa,1,1,D,1.0,0.8,Stadium of Light,,2024-25,18,5,3,2,12,8,4,15,4,3,3,9,10,-1
+778,2025-09-21,Arsenal,Manchester City,1,1,D,0.9,0.9,Emirates Stadium,,2024-25,25,8,1,1,18,3,15,19,6,1,3,20,8,12
+776,2025-09-21,Bournemouth,Newcastle Utd,0,0,D,0.5,0.2,Vitality Stadium,,2024-25,18,5,3,2,17,14,3,12,3,3,4,10,11,-1
+782,2025-09-27,Chelsea,Brighton,1,3,A,1.8,2.3,Stamford Bridge,,2024-25,17,5,2,3,18,11,7,15,4,3,3,17,15,2
+779,2025-09-27,Brentford,Manchester Utd,3,1,H,1.9,2.1,Gtech Community Stadium,,2024-25,13,4,1,5,14,16,-2,17,5,2,3,17,16,1
+781,2025-09-27,Manchester City,Burnley,5,1,H,2.0,0.4,Etihad Stadium,,2024-25,19,6,1,3,20,8,12,10,3,1,6,12,19,-7
+783,2025-09-27,Nott'ham Forest,Sunderland,0,1,A,1.6,1.6,The City Ground,,2024-25,6,1,3,6,7,19,-12,18,5,3,2,12,8,4
+780,2025-09-27,Crystal Palace,Liverpool,2,1,H,2.9,2.1,Selhurst Park,,2024-25,16,4,4,2,14,9,5,18,6,0,4,18,14,4
+784,2025-09-27,Tottenham,Wolves,1,1,D,0.8,1.1,Tottenham Hotspur Stadium,,2024-25,17,5,2,3,17,8,9,2,0,2,8,7,22,-15
+785,2025-09-28,Aston Villa,Fulham,3,1,H,1.1,1.1,Villa Park,,2024-25,15,4,3,3,9,10,-1,11,3,2,5,12,14,-2
+786,2025-09-28,Newcastle Utd,Arsenal,1,2,A,0.6,2.0,St James' Park,,2024-25,12,3,3,4,10,11,-1,25,8,1,1,18,3,15
+787,2025-09-29,Everton,West Ham,1,1,D,0.7,1.2,Hill Dickinson Stadium,,2024-25,12,3,3,4,10,13,-3,7,2,1,7,10,21,-11
+788,2025-10-03,Bournemouth,Fulham,3,1,H,1.2,0.9,Vitality Stadium,,2024-25,18,5,3,2,17,14,3,11,3,2,5,12,14,-2
+789,2025-10-04,Leeds United,Tottenham,1,2,A,1.7,0.6,Elland Road,,2024-25,11,3,2,5,9,17,-8,17,5,2,3,17,8,9
+792,2025-10-04,Chelsea,Liverpool,2,1,H,1.0,1.9,Stamford Bridge,,2024-25,17,5,2,3,18,11,7,18,6,0,4,18,14,4
+791,2025-10-04,Manchester Utd,Sunderland,2,0,H,1.8,0.7,Old Trafford,,2024-25,17,5,2,3,17,16,1,18,5,3,2,12,8,4
+790,2025-10-04,Arsenal,West Ham,2,0,H,2.8,0.4,Emirates Stadium,,2024-25,25,8,1,1,18,3,15,7,2,1,7,10,21,-11
+796,2025-10-05,Brentford,Manchester City,0,1,A,0.7,0.8,Gtech Community Stadium,,2024-25,13,4,1,5,14,16,-2,19,6,1,3,20,8,12
+794,2025-10-05,Aston Villa,Burnley,2,1,H,1.1,0.4,Villa Park,,2024-25,15,4,3,3,9,10,-1,10,3,1,6,12,19,-7
+793,2025-10-05,Everton,Crystal Palace,2,1,H,2.0,1.5,Hill Dickinson Stadium,,2024-25,12,3,3,4,10,13,-3,16,4,4,2,14,9,5
+795,2025-10-05,Newcastle Utd,Nott'ham Forest,2,0,H,3.2,0.2,St James' Park,,2024-25,12,3,3,4,10,11,-1,6,1,3,6,7,19,-12
+798,2025-10-18,Sunderland,Wolves,2,0,H,0.6,0.8,Stadium of Light,,2024-25,18,5,3,2,12,8,4,2,0,2,8,7,22,-15
+800,2025-10-18,Brighton,Newcastle Utd,2,1,H,0.9,1.4,The American Express Stadium,,2024-25,15,4,3,3,17,15,2,12,3,3,4,10,11,-1
+802,2025-10-18,Manchester City,Everton,2,0,H,2.3,1.1,Etihad Stadium,,2024-25,19,6,1,3,20,8,12,12,3,3,4,10,13,-3
+799,2025-10-18,Burnley,Leeds United,2,0,H,0.5,2.4,Turf Moor,,2024-25,10,3,1,6,12,19,-7,11,3,2,5,9,17,-8
+797,2025-10-18,Nott'ham Forest,Chelsea,0,3,A,2.2,1.7,The City Ground,,2024-25,6,1,3,6,7,19,-12,17,5,2,3,18,11,7
+801,2025-10-18,Crystal Palace,Bournemouth,3,3,D,4.4,2.0,Selhurst Park,,2024-25,16,4,4,2,14,9,5,18,5,3,2,17,14,3
+803,2025-10-19,Tottenham,Aston Villa,1,2,A,0.9,0.3,Tottenham Hotspur Stadium,,2024-25,17,5,2,3,17,8,9,15,4,3,3,9,10,-1
+804,2025-10-19,Liverpool,Manchester Utd,1,2,A,2.6,1.3,Anfield,,2024-25,18,6,0,4,18,14,4,17,5,2,3,17,16,1
+805,2025-10-20,West Ham,Brentford,0,2,A,0.4,2.3,London Stadium,,2024-25,7,2,1,7,10,21,-11,13,4,1,5,14,16,-2
+806,2025-10-24,Leeds United,West Ham,2,1,H,1.5,0.6,Elland Road,,2024-25,11,3,2,5,9,17,-8,7,2,1,7,10,21,-11
+808,2025-10-25,Chelsea,Sunderland,1,2,A,0.9,1.2,Stamford Bridge,,2024-25,17,5,2,3,18,11,7,18,5,3,2,12,8,4
+809,2025-10-25,Manchester Utd,Brighton,4,2,H,1.3,1.1,Old Trafford,,2024-25,17,5,2,3,17,16,1,15,4,3,3,17,15,2
+807,2025-10-25,Newcastle Utd,Fulham,2,1,H,2.1,1.3,St James' Park,,2024-25,12,3,3,4,10,11,-1,11,3,2,5,12,14,-2
+810,2025-10-25,Brentford,Liverpool,3,2,H,2.7,2.2,Gtech Community Stadium,,2024-25,13,4,1,5,14,16,-2,18,6,0,4,18,14,4
+813,2025-10-26,Bournemouth,Nott'ham Forest,2,0,H,0.6,0.4,Vitality Stadium,,2024-25,18,5,3,2,17,14,3,6,1,3,6,7,19,-12
+814,2025-10-26,Everton,Tottenham,0,3,A,1.7,1.7,Hill Dickinson Stadium,,2024-25,12,3,3,4,10,13,-3,17,5,2,3,17,8,9
+811,2025-10-26,Arsenal,Crystal Palace,1,0,H,0.9,0.5,Emirates Stadium,,2024-25,25,8,1,1,18,3,15,16,4,4,2,14,9,5
+812,2025-10-26,Aston Villa,Manchester City,1,0,H,0.8,1.2,Villa Park,,2024-25,15,4,3,3,9,10,-1,19,6,1,3,20,8,12
+817,2025-11-01,Fulham,Wolves,3,0,H,1.3,0.2,Craven Cottage,,2024-25,11,3,2,5,12,14,-2,2,0,2,8,7,22,-15
+819,2025-11-01,Brighton,Leeds United,3,0,H,3.0,0.5,The American Express Stadium,,2024-25,15,4,3,3,17,15,2,11,3,2,5,9,17,-8
+818,2025-11-01,Burnley,Arsenal,0,2,A,0.4,2.3,Turf Moor,,2024-25,10,3,1,6,12,19,-7,25,8,1,1,18,3,15
+820,2025-11-01,Tottenham,Chelsea,0,1,A,0.1,3.7,Tottenham Hotspur Stadium,,2024-25,17,5,2,3,17,8,9,17,5,2,3,18,11,7
+821,2025-11-01,Liverpool,Aston Villa,2,0,H,1.2,0.4,Anfield,,2024-25,18,6,0,4,18,14,4,15,4,3,3,9,10,-1
+816,2025-11-01,Nott'ham Forest,Manchester Utd,2,2,D,1.9,1.2,The City Ground,,2024-25,6,1,3,6,7,19,-12,17,5,2,3,17,16,1
+815,2025-11-01,Crystal Palace,Brentford,2,0,H,0.7,0.5,Selhurst Park,,2024-25,16,4,4,2,14,9,5,13,4,1,5,14,16,-2
+822,2025-11-02,West Ham,Newcastle Utd,3,1,H,1.7,0.5,London Stadium,,2024-25,7,2,1,7,10,21,-11,12,3,3,4,10,11,-1
+823,2025-11-03,Sunderland,Everton,1,1,D,1.2,0.9,Stadium of Light,,2024-25,18,5,3,2,12,8,4,12,3,3,4,10,13,-3

@@ -1,0 +1,21 @@
+team,season,points,wins,draws,losses,goals_for,goals_against,goal_diff,position,league,country
+Arsenal,2024-25,25,8,1,1,18,3,15,1,Premier League,England
+Manchester City,2024-25,19,6,1,3,20,8,12,2,Premier League,England
+Liverpool,2024-25,18,6,0,4,18,14,4,3,Premier League,England
+Sunderland,2024-25,18,5,3,2,12,8,4,4,Premier League,England
+Bournemouth,2024-25,18,5,3,2,17,14,3,5,Premier League,England
+Tottenham,2024-25,17,5,2,3,17,8,9,6,Premier League,England
+Chelsea,2024-25,17,5,2,3,18,11,7,7,Premier League,England
+Manchester Utd,2024-25,17,5,2,3,17,16,1,8,Premier League,England
+Crystal Palace,2024-25,16,4,4,2,14,9,5,9,Premier League,England
+Brighton,2024-25,15,4,3,3,17,15,2,10,Premier League,England
+Aston Villa,2024-25,15,4,3,3,9,10,-1,11,Premier League,England
+Brentford,2024-25,13,4,1,5,14,16,-2,12,Premier League,England
+Newcastle Utd,2024-25,12,3,3,4,10,11,-1,13,Premier League,England
+Everton,2024-25,12,3,3,4,10,13,-3,14,Premier League,England
+Fulham,2024-25,11,3,2,5,12,14,-2,15,Premier League,England
+Leeds United,2024-25,11,3,2,5,9,17,-8,16,Premier League,England
+Burnley,2024-25,10,3,1,6,12,19,-7,17,Premier League,England
+West Ham,2024-25,7,2,1,7,10,21,-11,18,Premier League,England
+Nott'ham Forest,2024-25,6,1,3,6,7,19,-12,19,Premier League,England
+Wolves,2024-25,2,0,2,8,7,22,-15,20,Premier League,England
