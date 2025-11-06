@@ -201,3 +201,106 @@ class MatchPrediction(Base):
     
     # Relationships
     match = relationship("Match", back_populates="prediction")
+
+class User(Base):
+    __tablename__ = "users"
+    
+    user_id = Column(Integer, primary_key=True, index=True)
+    username = Column(String(50), unique=True, nullable=False, index=True)
+    email = Column(String(100), unique=True, nullable=False, index=True)
+    password_hash = Column(String(255), nullable=False)
+    full_name = Column(String(150))
+    is_admin = Column(Boolean, default=False)
+    profile_picture_url = Column(String(255))
+    created_at = Column(DateTime, server_default=func.now())
+    last_login = Column(DateTime)
+    is_active = Column(Boolean, default=True)
+    
+    # Relationships
+    followed_teams = relationship("UserFollowsTeam", back_populates="user")
+    followed_players = relationship("UserFollowsPlayer", back_populates="user")
+    predictions = relationship("UserPrediction", back_populates="user")
+    activities = relationship("UserActivityFeed", back_populates="user")
+
+
+class UserFollowsTeam(Base):
+    __tablename__ = "user_follows_teams"
+    
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
+    team_id = Column(Integer, ForeignKey("teams.team_id", ondelete="CASCADE"), primary_key=True)
+    followed_at = Column(DateTime, server_default=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="followed_teams")
+    team = relationship("Team")
+
+
+class UserFollowsPlayer(Base):
+    __tablename__ = "user_follows_players"
+    
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
+    player_id = Column(Integer, ForeignKey("players.player_id", ondelete="CASCADE"), primary_key=True)
+    followed_at = Column(DateTime, server_default=func.now())
+    
+    # Relationships
+    user = relationship("User", back_populates="followed_players")
+    player = relationship("Player")
+
+
+class UserPrediction(Base):
+    __tablename__ = "user_predictions"
+    
+    prediction_id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), nullable=False)
+    season_id = Column(Integer, ForeignKey("seasons.season_id", ondelete="CASCADE"), nullable=False)
+    prediction_type = Column(String(50), nullable=False)
+    predicted_team_id = Column(Integer, ForeignKey("teams.team_id", ondelete="SET NULL"))
+    predicted_player_id = Column(Integer, ForeignKey("players.player_id", ondelete="SET NULL"))
+    predicted_value = Column(Integer)
+    created_at = Column(DateTime, server_default=func.now())
+    is_correct = Column(Boolean)
+    points_earned = Column(Integer, default=0)
+    
+    # Relationships
+    user = relationship("User", back_populates="predictions")
+    season = relationship("Season")
+    predicted_team = relationship("Team", foreign_keys=[predicted_team_id])
+    predicted_player = relationship("Player", foreign_keys=[predicted_player_id])
+    
+    __table_args__ = (
+        UniqueConstraint('user_id', 'season_id', 'prediction_type', name='uk_user_season_prediction'),
+    )
+
+
+class UserLeaderboard(Base):
+    __tablename__ = "user_leaderboard"
+    
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), primary_key=True)
+    username = Column(String(50), nullable=False)
+    total_predictions = Column(Integer, default=0)
+    correct_predictions = Column(Integer, default=0)
+    total_points = Column(Integer, default=0)
+    accuracy_percentage = Column(DECIMAL(5, 2), default=0.00)
+    rank = Column(Integer)
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+class UserActivityFeed(Base):
+    __tablename__ = "user_activity_feed"
+    
+    activity_id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.user_id", ondelete="CASCADE"), nullable=False)
+    activity_type = Column(String(50), nullable=False)
+    related_match_id = Column(Integer, ForeignKey("matches.match_id", ondelete="CASCADE"))
+    related_team_id = Column(Integer, ForeignKey("teams.team_id", ondelete="CASCADE"))
+    related_player_id = Column(Integer, ForeignKey("players.player_id", ondelete="CASCADE"))
+    title = Column(String(255), nullable=False)
+    description = Column(String)
+    created_at = Column(DateTime, server_default=func.now())
+    is_read = Column(Boolean, default=False)
+    
+    # Relationships
+    user = relationship("User", back_populates="activities")
+    related_match = relationship("Match")
+    related_team = relationship("Team")
+    related_player = relationship("Player")
