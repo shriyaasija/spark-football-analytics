@@ -1,10 +1,11 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
+from sqlalchemy import text
 
 from src.core.config import get_settings
 from src.core.database import get_db, engine, Base
-from src.api.routes import teams
+from src.api.routes import teams, analytics
 from src.schemas.schemas import HealthCheck
 
 settings = get_settings()
@@ -29,6 +30,7 @@ app.add_middleware(
 
 # Include routers
 app.include_router(teams.router, prefix=settings.API_V1_PREFIX)
+app.include_router(analytics.router, prefix=settings.API_V1_PREFIX)
 
 
 @app.get("/", response_model=HealthCheck)
@@ -45,8 +47,8 @@ def root():
 def health_check(db: Session = Depends(get_db)):
     """Detailed health check with database connection test"""
     try:
-        # Test database connection
-        db.execute("SELECT 1")
+        # Test database connection (SQLAlchemy 2.0 requires text() wrapper)
+        db.execute(text("SELECT 1"))
         db_status = "connected"
     except Exception as e:
         db_status = f"error: {str(e)}"

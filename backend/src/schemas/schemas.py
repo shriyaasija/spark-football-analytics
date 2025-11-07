@@ -177,6 +177,65 @@ class MatchStatistics(BaseModel):
 
 
 # ============================================
+# PREDICTION SCHEMAS
+# ============================================
+
+class MatchPredictionRequest(BaseModel):
+    """Request schema for match outcome prediction"""
+    home_team_id: int
+    away_team_id: int
+    # Home team statistics
+    home_points: int
+    home_wins: int
+    home_draws: int
+    home_losses: int
+    home_gf: int  # goals for
+    home_ga: int  # goals against
+    home_gd: int  # goal difference
+    # Away team statistics
+    away_points: int
+    away_wins: int
+    away_draws: int
+    away_losses: int
+    away_gf: int
+    away_ga: int
+    away_gd: int
+    # Optional xG data
+    home_xg: Optional[float] = None
+    away_xg: Optional[float] = None
+
+
+class MatchPredictionResponse(BaseModel):
+    """Response schema for match outcome prediction"""
+    home_team_id: int
+    away_team_id: int
+    home_win_probability: float = Field(..., ge=0, le=1, description="Probability of home team winning")
+    draw_probability: float = Field(..., ge=0, le=1, description="Probability of a draw")
+    away_win_probability: float = Field(..., ge=0, le=1, description="Probability of away team winning")
+    predicted_outcome: str = Field(..., description="Predicted outcome: H (home win), D (draw), A (away win)")
+
+
+class SeasonPredictionRequest(BaseModel):
+    """Request schema for season performance prediction"""
+    team_id: int
+    # Current season statistics
+    wins: int
+    draws: int
+    losses: int
+    goals_for: int
+    goals_against: int
+    goal_diff: int
+    points: int
+
+
+class SeasonPredictionResponse(BaseModel):
+    """Response schema for season performance prediction"""
+    team_id: int
+    predicted_points: float = Field(..., description="Predicted final points total")
+    predicted_position: float = Field(..., description="Predicted final league position")
+
+
+# ============================================
 # GENERIC RESPONSES
 # ============================================
 
