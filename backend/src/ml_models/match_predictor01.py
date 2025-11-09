@@ -284,7 +284,7 @@ class MatchOutcomePredictor:
         self.model = None
         self.scaler = StandardScaler()
         self.label_encoder = LabelEncoder()
-        self.feature_names = None
+        self.feature_names = []
         
     def create_features(self, df):
         """
