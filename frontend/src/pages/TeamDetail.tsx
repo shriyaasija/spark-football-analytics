@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { viewAPI, followAPI } from '../services/api';
 import { useAuthStore } from '../store/authStore';
 import type { Team, Player, Match } from '../types';
-import { Heart, Users, Calendar } from 'lucide-react';
+import { Heart, Users, Calendar, MapPin, Building2 } from 'lucide-react';
 
 export default function TeamDetail() {
   const { id } = useParams();
@@ -46,28 +46,59 @@ export default function TeamDetail() {
 
   if (loading || !team) return <div>Loading...</div>;
 
+  const getTeamLogo = (teamName: string) => {
+    const encodedName = encodeURIComponent(teamName);
+    return `https://ui-avatars.com/api/?name=${encodedName}&background=random&size=200&bold=true`;
+  };
+
   return (
     <div className="space-y-6">
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-        <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-3xl font-bold">{team.name}</h1>
-            {team.city && <p className="text-gray-600 dark:text-gray-400">{team.city}</p>}
-            {team.stadium_name && <p className="text-gray-600 dark:text-gray-400">{team.stadium_name}</p>}
+      <div className="relative bg-gradient-to-br from-primary-500 via-blue-500 to-purple-500 rounded-2xl shadow-2xl overflow-hidden">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="relative p-8 text-white">
+          <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
+            <div className="flex items-center gap-6">
+              <div className="relative">
+                <img
+                  src={getTeamLogo(team.name)}
+                  alt={team.name}
+                  className="w-32 h-32 rounded-full object-cover ring-4 ring-white/50 shadow-xl"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(team.name)}&background=random&size=200`;
+                  }}
+                />
+              </div>
+              <div>
+                <h1 className="text-4xl font-bold mb-2">{team.name}</h1>
+                {team.city && (
+                  <p className="text-lg text-white/90 flex items-center gap-2">
+                    <MapPin className="h-5 w-5" />
+                    {team.city}
+                  </p>
+                )}
+                {team.stadium_name && (
+                  <p className="text-md text-white/80 flex items-center gap-2 mt-1">
+                    <Building2 className="h-4 w-4" />
+                    {team.stadium_name}
+                  </p>
+                )}
+              </div>
+            </div>
+            {isAuthenticated && (
+              <button
+                onClick={handleFollow}
+                className={`flex items-center space-x-2 px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 ${
+                  isFollowing
+                    ? 'bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm'
+                    : 'bg-white text-primary-600 hover:bg-white/90 shadow-lg'
+                }`}
+              >
+                <Heart className={`h-5 w-5 ${isFollowing ? 'fill-current' : ''}`} />
+                <span>{isFollowing ? 'Following' : 'Follow Team'}</span>
+              </button>
+            )}
           </div>
-          {isAuthenticated && (
-            <button
-              onClick={handleFollow}
-              className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${
-                isFollowing
-                  ? 'bg-red-100 text-red-600 hover:bg-red-200'
-                  : 'bg-primary-100 text-primary-600 hover:bg-primary-200'
-              }`}
-            >
-              <Heart className={`h-5 w-5 ${isFollowing ? 'fill-current' : ''}`} />
-              <span>{isFollowing ? 'Following' : 'Follow'}</span>
-            </button>
-          )}
         </div>
       </div>
 
