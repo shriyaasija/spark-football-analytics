@@ -4,9 +4,48 @@ import { viewAPI } from '../services/api';
 import type { Team } from '../types';
 import { MapPin, Building2 } from 'lucide-react';
 
-// Helper function to get team logo URL
-const getTeamLogo = (teamName: string) => {
-  // Using a placeholder service - you can replace with actual team logos
+// Helper function to get team logo URL - SIMPLIFIED to match your exact file names
+const getTeamLogo = (teamName: string, fbrefId?: string) => {
+  if (!fbrefId) {
+    const encodedName = encodeURIComponent(teamName);
+    return `https://ui-avatars.com/api/?name=${encodedName}&background=random&size=128&bold=true`;
+  }
+
+  // Map database names to EXACT filenames in your team_logos folder
+  const teamLogoFiles: Record<string, string> = {
+    'Sunderland': 'Sunderland AFC.png',
+    'Luton Town': 'Luton Town.png',
+    'Burnley': 'Burnley FC.png',
+    'Sheffield Utd': 'Sheffield United.png',
+    'Manchester City': 'Manchester City.png',
+    'Arsenal': 'Arsenal FC.png',
+    'Manchester Utd': 'Manchester United.png',
+    'Newcastle Utd': 'Newcastle United.png',
+    'Liverpool': 'Liverpool FC.png',
+    'Brighton': 'Brighton & Hove Albion.png',
+    'Aston Villa': 'Aston Villa.png',
+    'Tottenham': 'Tottenham Hotspur.png',
+    'Brentford': 'Brentford FC.png',
+    'Fulham': 'Fulham FC.png',
+    'Crystal Palace': 'Crystal Palace.png',
+    'Chelsea': 'Chelsea FC.png',
+    'Wolves': 'Wolverhampton Wanderers.png',
+    'West Ham': 'West Ham United.png',
+    'Bournemouth': 'AFC Bournemouth.png',
+    "Nott'ham Forest": 'Nottingham Forest.png',
+    'Everton': 'Everton FC.png',
+    'Leeds United': 'Leeds United.png',
+    'Leicester City': 'Leicester City.png',
+    'Southampton': 'Southampton.png',
+  };
+
+  const fileName = teamLogoFiles[teamName];
+  
+  if (fileName) {
+    return `/assets/team_logos/${fileName}`;
+  }
+
+  // Fallback to placeholder if team not found
   const encodedName = encodeURIComponent(teamName);
   return `https://ui-avatars.com/api/?name=${encodedName}&background=random&size=128&bold=true`;
 };
@@ -55,12 +94,13 @@ export default function Teams() {
               <div className="flex justify-center mb-4">
                 <div className="relative">
                   <img
-                    src={getTeamLogo(team.name)}
+                    src={getTeamLogo(team.name, team.fbref_id)}
                     alt={team.name}
                     className="w-24 h-24 rounded-full object-cover ring-4 ring-primary-200 dark:ring-primary-800 group-hover:ring-primary-400 dark:group-hover:ring-primary-600 transition-all duration-300 transform group-hover:scale-110"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(team.name)}&background=random&size=128`;
+                      console.log(`Failed to load logo for ${team.name}, trying: ${target.src}`);
+                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(team.name)}&background=random&size=128&bold=true`;
                     }}
                   />
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -99,4 +139,3 @@ export default function Teams() {
     </div>
   );
 }
-
